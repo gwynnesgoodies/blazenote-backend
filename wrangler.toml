@@ -12,10 +12,10 @@ migrations_dir = "./migrations"
 # [ai]
 # binding = "AI"
 
-# [[r2_buckets]]
-# binding = "R2_BUCKET"
-# bucket_name = "blazenote"
-# preview_bucket_name = "dev-blazenote"
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "blazenote"
+preview_bucket_name = "dev-blazenote"
 
 [observability.logs]
 enabled = true
